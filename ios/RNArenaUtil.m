@@ -10,7 +10,7 @@
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(log){
-    NSLog(@"我是输出");
+    NSLog(@"我是输出 222");
 }
 
 @end
