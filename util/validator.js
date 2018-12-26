@@ -37,7 +37,7 @@ export default class Validator {
     }
 
     /**
-     * 判断是不是数字带小数点
+     * 判断是不是数字（带小数点）
      *
      * @param value
      * @returns {boolean}

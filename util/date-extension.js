@@ -68,21 +68,21 @@ Date.prototype.format = function(format) {
 };
 
 /**
- * 
+ * 	加一天
  */
 Date.prototype.addDays = function(d) {
 	this.setDate(this.getDate() + d);
 };
 
 /**
- * 
+ * 加一周
  */
 Date.prototype.addWeeks = function(w) {
 	this.addDays(w * 7);
 };
 
 /**
- * 
+ * 加一月
  */
 Date.prototype.addMonths = function(m) {
 	this.setMonth(this.getMonth() + m);
