@@ -19,4 +19,9 @@ public class RNArenaUtilModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "RNArenaUtil";
   }
+
+  @ReactMethod
+  public void log() {
+	System.out.println("android 的打印");
+  }
 }
